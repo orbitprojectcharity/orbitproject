@@ -7,10 +7,10 @@ layout: default
 		{% for item in site.data.team %}
 		<div class="team-item">
 			<div class="item-img">
-				<img src="{{item.team-img}}" alt="" class="round">
+				<img src="{{item.img}}" alt="" class="round">
 			</div>
 			<div class="block-content">
-				<p>{{item.team-content}}</p>
+				<p>{{item.content}}</p>
 			</div>
 		</div>
 		{% endfor %}
@@ -18,7 +18,7 @@ layout: default
 </div>
 <div class="block-wrap">
 	<h2 class="block-title">our reach</h2>
-	<p class="sub-title">our supporters have over <span>9700</span> followers<br>we have donated <span>400</span> sbd</p>
+	<p class="sub-title">our supporters have over <span>{{site.data.options.followers}}</span> followers<br>we have donated <span>{{site.data.options.donate}}</span> sbd</p>
 </div>
 <div class="block-wrap">
 	<h2 class="block-title">supporters</h2>
@@ -27,9 +27,9 @@ layout: default
 			{% for item in site.data.supporters %}
 			<li>
 				<div class="supporters-img">
-					<img src="{{item.supporters-avatar}}" alt="">
+					<img src="{{item.avatar}}" alt="">
 				</div>
-				<div class="items-member"><a href="#">{{item.supporters-login}}</a></div>
+				<div class="items-member"><a href="#">{{item.login}}</a></div>
 			</li>		
 			{% endfor %}
 		</ul>
