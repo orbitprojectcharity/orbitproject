@@ -1,0 +1,24 @@
+body{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0 auto;
+	max-height: 100%;
+	background: url(../assets/img/body-bg.jpg) no-repeat;
+	background-size: cover;
+	color: $base-text-color;
+}
+img {
+	max-width: 100%;
+	max-height: auto;
+}
+h2{
+	margin: 10px 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	li{
+		list-style: none;
+	}	
+}

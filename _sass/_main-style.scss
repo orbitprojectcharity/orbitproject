@@ -1,0 +1,138 @@
+// layout style start
+.main-wrapper{
+	width: 100%;
+	max-width: 845px;
+	margin: 0 auto;
+}
+.container{
+	padding: 0px 90px;
+	margin: 0 auto;
+	@media(max-width: 768px){
+		padding: 0px 50px;
+	}
+	@media(max-width: 425px){
+		padding: 0px 20px;
+	}
+}
+.container-top{
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+// layout style end
+
+.block-wrap{
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+.block-title{
+	font-size: 48px;
+	text-transform: uppercase;
+	font-family: $vodka-rough;
+	text-align: center;
+	@media(max-width: 460px){
+		font-size: 35px;
+	}
+}
+.block-content{
+	color: $base-text-color;
+	font-size: 14px;
+}
+.links{
+	a{
+		color: $base-text-color;
+	}
+}
+.sub-title{
+	text-transform: uppercase;
+	font-family: $vodka-rough;
+	font-size: 30px;
+	margin: 0;
+	@media(max-width: 460px){
+		font-size: 25px;
+	}
+	span{
+		font-size: 42px;
+		line-height: 0;
+		@media(max-width: 460px){
+		font-size: 32px;
+	}
+	}
+}
+.team-wrap{
+	display: flex;
+	margin-left: -10px;
+	margin-right: -10px;
+	@media(max-width: 460px){
+		flex-wrap: wrap;
+	}
+	.team-item{
+		flex: 0 1 33.3%;
+		max-width: 33.3%;
+		padding-left: 10px;
+		padding-right: 10px;
+		@media(max-width: 460px){
+		    flex: 0 1 100%;
+			max-width: 100%;
+		}
+		.item-img{
+			width: 100px;
+			height: 100px;
+			background: #FFF;
+			margin: 0 auto;
+  			overflow: hidden;
+  			border-radius: 50%;
+  			img{
+  				width: auto;
+				height: 100%;
+				margin: 0 auto;
+  			}
+		}
+	}
+	
+}
+.round{
+	border-radius: 50%;
+}
+.block-content{
+	.supporters-items{
+		padding-bottom: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		li{
+		    flex: 1 0 70px;
+			max-width: 70px;
+			padding: 5px;
+			text-align: center;
+		    .supporters-img{
+		    	width: 65px;
+		    	height: 65px;
+		    	background: #ddd;
+		    	margin: 0 auto;
+  				overflow: hidden;
+  				border-radius: 50%;
+  				img{
+  					width: auto;
+					height: 100%;
+					margin: 0 auto;
+  				}
+		    }
+		    .items-member{
+		    	font-size: 8px;
+		    }
+		}
+	}
+}
+
+.footer{
+	text-align: center;
+	font-size: 12px;
+	a{
+		color: $base-text-color;
+	}
+	p{
+		padding: 5px 0;
+		margin: 0;
+	}
+}

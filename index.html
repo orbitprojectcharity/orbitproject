@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="block-wrap container-top"> 
+	<h2 class="block-title">The team</h2>
+	<div class="team-wrap">
+		{% for item in site.data.team %}
+		<div class="team-item">
+			<div class="item-img">
+				<img src="{{item.team-img}}" alt="" class="round">
+			</div>
+			<div class="block-content">
+				<p>{{item.team-content}}</p>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+<div class="block-wrap">
+	<h2 class="block-title">our reach</h2>
+	<p class="sub-title">our supporters have over <span>9700</span> followers<br>we have donated <span>400</span> sbd</p>
+</div>
+<div class="block-wrap">
+	<h2 class="block-title">supporters</h2>
+	<div class="block-content">
+		<ul class="supporters-items">
+			{% for item in site.data.supporters %}
+			<li>
+				<div class="supporters-img">
+					<img src="{{item.supporters-avatar}}" alt="">
+				</div>
+				<div class="items-member"><a href="#">{{item.supporters-login}}</a></div>
+			</li>		
+			{% endfor %}
+		</ul>
+	</div>
+</div>
