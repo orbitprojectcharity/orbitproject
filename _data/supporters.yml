@@ -1,74 +1,49 @@
-# avatar - round image in supporters section
-# login - name in supporters section
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
-
-- avatar : /assets/img/body-bg.jpg
-  login : '@knozaki2015'
+---
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
+- avatar: "/assets/img/body-bg.jpg"
+  login: "@knozaki2015"
