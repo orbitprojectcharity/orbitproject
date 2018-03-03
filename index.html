@@ -7,7 +7,7 @@ layout: default
 		{% for item in site.data.team %}
 		<div class="team-item">
 			<div class="item-img">
-				<img src="{{item.img}}" alt="" class="round">
+				<img src="{{site.url}}{{site.baseUrl}}{{item.img}}" alt="" class="round">
 			</div>
 			<div class="block-content">
 				<p>{{item.content}}</p>
@@ -27,7 +27,7 @@ layout: default
 			{% for item in site.data.supporters %}
 			<li>
 				<div class="supporters-img">
-					<img src="{{item.avatar}}" alt="">
+					<img src="{{site.url}}{{site.baseUrl}}{{item.avatar}}" alt="">
 				</div>
 				<div class="items-member"><a href="#">{{item.login}}</a></div>
 			</li>		
