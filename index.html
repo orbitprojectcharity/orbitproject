@@ -26,10 +26,12 @@ layout: default
 		<ul class="supporters-items">
 			{% for item in site.data.supporters %}
 			<li>
-				<div class="supporters-img">
-					<img src="{{site.url}}{{site.baseurl}}{{item.avatar}}" alt="">
-				</div>
-				<div class="items-member"><a href="#">{{item.login}}</a></div>
+				<a href="{{item.link}}">
+					<div class="supporters-img">
+						<img src="{{site.url}}{{site.baseurl}}{{item.avatar}}" alt="">
+					</div>
+					<div class="items-member">{{item.login}}</div>
+				</a>
 			</li>		
 			{% endfor %}
 		</ul>
