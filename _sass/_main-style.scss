@@ -120,11 +120,12 @@
   				}
 		    }
 		    .items-member{
-		    	font-size: 8px;
-		    	a{
-		    		color: $base-text-color;
-		    	}
+		    	font-size: 10px;
+		    	color: $base-text-color;
 		    }
+		}
+		a{
+			text-decoration: none;
 		}
 	}
 }
