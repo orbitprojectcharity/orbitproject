@@ -100,9 +100,10 @@
 		padding-bottom: 50px;
 		display: flex;
 		flex-wrap: wrap;
+    justify-content: center;
 		li{
-		    flex: 1 0 70px;
-			max-width: 70px;
+		  flex: 1 0 13%;
+			max-width: 13%;
 			padding: 5px;
 			text-align: center;
 		    .supporters-img{
