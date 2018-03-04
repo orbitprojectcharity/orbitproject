@@ -102,10 +102,14 @@
 		flex-wrap: wrap;
     justify-content: center;
 		li{
-		  flex: 1 0 13%;
-			max-width: 13%;
+		  flex: 1 0 21%;
+			max-width: 21%;
 			padding: 5px;
 			text-align: center;
+      @media (min-width: 600px) {
+        flex: 1 0 13%;
+        max-width: 13%;
+      }
 		    .supporters-img{
 		    	width: 65px;
 		    	height: 65px;
