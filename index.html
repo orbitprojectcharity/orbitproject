@@ -9,6 +9,7 @@ layout: default
         <ul class="links">
           <li><a href="#">Read our FAQ</a></li>
           <li><a href="https://docs.google.com/spreadsheets/d/1VPKs1eoReEpUyHAH-lBhXEFhGrmuo_pjgwVdkThzb6c/edit?usp=sharing">Sign up to help</a></li>
+           <li><a href="#">Read our FAQ</a></li>
         </ul>
       </div>
   </header>
@@ -20,19 +21,13 @@ layout: default
 		{% for item in site.data.team %}
 		<div class="team-item">
 			<div class="item-img">
-				<img src="{{site.url}}{{site.baseurl}}{{item.img}}" alt="" class="round">
+				<img src="%7B%7Bsite.url%7D%7D%7B%7Bsite.baseurl%7D%7D%7B%7Bitem.img%7D%7D" alt="" class="round">
 			</div>
 			<div class="block-content">
 				<p>{{item.content}}</p>
 			</div>
 		</div>
-		{% endfor %}
-	</div>
-</div>
-<div class="block-wrap">
-	<h2 class="block-title">our reach</h2>
-	<p class="sub-title">our supporters have <span>{{site.data.options.followers}}+</span> followers<br>we have donated <span>{{site.data.options.donate}}</span> sbd</p>
-</div>
+		{% endfor %}</div></div>
 <div class="block-wrap">
 	<h2 class="block-title">supporters</h2>
 	<div class="block-content">
@@ -41,7 +36,7 @@ layout: default
 			<li>
 				<a href="{{item.link}}">
 					<div class="supporters-img">
-						<img src="{{site.url}}{{site.baseurl}}{{item.avatar}}" alt="">
+						<img src="%7B%7Bsite.url%7D%7D%7B%7Bsite.baseurl%7D%7D%7B%7Bitem.avatar%7D%7D" alt="">
 					</div>
 					<div class="items-member">{{item.login}}</div>
 				</a>
