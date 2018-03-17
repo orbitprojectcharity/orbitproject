@@ -11,5 +11,7 @@ fields:
 - type: text
   default: layout
   hidden: true
-  label: default
+  label: layout
   name: default
+  config:
+    required: true
