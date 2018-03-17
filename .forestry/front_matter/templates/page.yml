@@ -12,4 +12,4 @@ fields:
   default: layout
   hidden: true
   label: default
-  name: defualt
+  name: default
