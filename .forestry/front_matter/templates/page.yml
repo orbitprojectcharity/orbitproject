@@ -8,3 +8,8 @@ fields:
   label: title
   config:
     required: true
+- type: text
+  default: layout
+  hidden: true
+  label: default
+  name: defualt
