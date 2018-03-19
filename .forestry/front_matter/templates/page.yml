@@ -10,7 +10,7 @@ fields:
   config:
     required: true
 - type: text
-  default: layout
+  default: default
   hidden: false
   label: layout
   name: default
