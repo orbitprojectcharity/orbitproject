@@ -9,6 +9,7 @@ fields:
   label: title
   config:
     required: true
+  default: Page title
 - type: text
   default: default
   hidden: false
