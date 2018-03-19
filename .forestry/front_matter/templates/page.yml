@@ -13,6 +13,6 @@ fields:
   default: default
   hidden: false
   label: layout
-  name: default
+  name: layout
   config:
     required: true
